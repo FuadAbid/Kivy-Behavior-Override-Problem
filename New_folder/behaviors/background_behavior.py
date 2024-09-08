@@ -5,11 +5,11 @@ from kivy.lang import Builder
 from kivy.properties import (
     ColorProperty,
     VariableListProperty, 
-    StringProperty,
 )
 
 Builder.load_string("""
 #: import RelativeLayout kivy.uix.relativelayout.RelativeLayout
+
 
 <BackgroundBehavior>
     canvas.before:
